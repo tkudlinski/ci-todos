@@ -1,11 +1,4 @@
-use druid::{AppLauncher, WindowDesc};
 use std::collections::HashMap;
-
-mod data;
-use data::AppState;
-
-mod view;
-use view::build_ui;
 
 struct Todo {
     map: HashMap<String, bool>,
